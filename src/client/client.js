@@ -40,10 +40,10 @@ let dataThisSecond = 0;
 let kbps = 0;
 let showProjectiles = true;
 
-setInterval(() => {
+/*setInterval(() => {
   kbps = Math.floor(dataThisSecond / 100) / 10;
   dataThisSecond = 0;
-}, 1000)
+}, 1000)*/
 const amogusImage = new Image();
 amogusImage.src = "./amogus.png";
 const impostorImage = new Image();
